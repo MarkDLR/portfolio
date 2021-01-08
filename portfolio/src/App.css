@@ -14,6 +14,9 @@
 }
 
 .App-header {
+  background-image: url(https://www.creativeuncut.com/social/the-legend-of-zelda-links-awakening.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,7 +24,37 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  
+  color: rgba(255, 255, 255, 0.856);
+  
+}
+
+.header-div {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 60%;
+  /* padding: 10%; */
+  padding-bottom: 48px;
+  padding-top: 36px;
+  text-align: center;
+  background-color: #0f6b0375;
+  border-radius: 15px;
+  /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+}
+
+.header-body{
+  margin: 0 auto;
+  width: 60%;
+  padding: 10%;
+  padding-bottom: 36px;
+  padding-top: 36px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #020c0075;
+  /* -webkit-text-stroke: .5px rgb(0, 0, 0); */
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffffcc;
 }
 
 .App-link {
